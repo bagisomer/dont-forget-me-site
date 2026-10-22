@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Don't Forget Me</title>
-<meta name="description" content="Don't Forget Me: bir kamp günü, bir silinen fotoğraf ve beş arkadaş. Altı bölümlük gençlik dizisi.">
+<meta name="description" content="Don't Forget Me: bir kamp günü, bir silinen fotoğraf ve beş arkadaş. On bir bölümlük gençlik dizisi.">
 <meta property="og:title" content="Don't Forget Me">
 <meta property="og:description" content="Bir anıyı silmeden önce kime sordun?">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,12 +14,12 @@
 /* Layout: sunny seaside café poster — big title over a sky-to-sea band, then cast, episodes, and a quiet footer. */
 :root{
   --sky:#bfe8f7; --sea:#2bb5b8; --sun:#ffd166; --ink:#1d2a33; --paper:#fffaf0; --card:#ffffff; --muted:#566570; --line:#e6dccb;
-  --mira:#4c8a55; --deniz:#1f3b6e; --sami:#4a4f57; --june:#d9a33a; --lea:#5f8fc2;
+  --mira:#4c8a55; --deniz:#1f3b6e; --sami:#4a4f57; --defne:#d9a33a; --ela:#5f8fc2;
   --display:"Fraunces",Georgia,serif; --body:"Work Sans",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
 }
 @media (prefers-color-scheme:dark){:root{
   --sky:#123447; --sea:#1d8f92; --sun:#f0b845; --ink:#f2ece2; --paper:#0f1a20; --card:#16242c; --muted:#a8b6bf; --line:#27363f;
-  --mira:#7cc287; --deniz:#8fb0e8; --sami:#b4bac2; --june:#f0c264; --lea:#97bce4; color-scheme:dark}}
+  --mira:#7cc287; --deniz:#8fb0e8; --sami:#b4bac2; --defne:#f0c264; --ela:#97bce4; color-scheme:dark}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
@@ -80,7 +80,7 @@ footer .in{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
     <div class="lights" aria-label="Beş ışıktan biri sönük">
       <i></i><i></i><i></i><i class="off"></i><i></i><span>1 / 5 söndü</span>
     </div>
-    <span class="badge">6 bölüm · Yakında</span>
+    <span class="badge">11 bölüm · 11 gün · Yakında</span>
   </div>
 </header>
 
@@ -89,7 +89,7 @@ footer .in{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
     <div class="in">
       <h2>Bir fotoğraf silindi. Bir gün kayboldu.</h2>
       <p>Mira telefonunda yer açmak için eski bir kamp fotoğrafını siler. Birkaç dakika sonra en yakın arkadaşı Deniz, o kampa hiç gitmemiş gibi konuşmaya başlar.</p>
-      <p>Uyarılar Mira'nın kendi sesinden gelir, ama Mira o cümleleri hiç söylememiştir. Beş arkadaş, kaybolan günü geri getirmek için altı günleri olduğunu öğrenir. Ve aradıkça, birbirlerinden neyi sakladıklarını da.</p>
+      <p>Uyarılar Mira'nın kendi sesinden gelir, ama Mira o cümleleri hiç söylememiştir. Beş arkadaş, kaybolan günü geri getirmek için on bir günleri olduğunu öğrenir. Ve aradıkça, birbirlerinden neyi sakladıklarını da.</p>
       <p>Sahilde bir kafe, turkuaz bir göl, bir kutu dolusu film şeridi ve hiç dinlenmemiş bir şarkı. Arkadaşlık, unutma ve izin üzerine bir yaz sonu gizemi.</p>
     </div>
   </section>
@@ -102,8 +102,8 @@ footer .in{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
         <article class="c" style="--k:var(--mira)"><div class="sw"></div><h3>Mira</h3><span class="age">20</span><p>Her şeyi not alır, kendine sesli mesaj bırakır. Silmeden önce sormayı unutur.</p><span class="mark">Yeşil ceket · bakır toka</span></article>
         <article class="c" style="--k:var(--deniz)"><div class="sw"></div><h3>Deniz</h3><span class="age">21</span><p>Kafenin en hızlı baristası, en hazır esprisi. Bir sabah bir günü hiç yaşamamış gibi uyanır.</p><span class="mark">Lacivert önlük · kulağında kalem</span></article>
         <article class="c" style="--k:var(--sami)"><div class="sw"></div><h3>Sami</h3><span class="age">22</span><p>Babasının radyo tamirhanesinde büyüdü. Bozuk olan her şeyi tamir eder, kendi hatası hariç.</p><span class="mark">Gözlük · tornavida</span></article>
-        <article class="c" style="--k:var(--june)"><div class="sw"></div><h3>June</h3><span class="age">20</span><p>Film fotoğrafı çeker. Telefon unutur, kâğıt unutmaz. Kira makbuzunu hep kaybeder.</p><span class="mark">Hardal hırka · film makinesi</span></article>
-        <article class="c" style="--k:var(--lea)"><div class="sw"></div><h3>Lea</h3><span class="age">19</span><p>Ses tasarımı öğrencisi. Konuşmadan önce kulaklığını çıkarır. Kamptan erken ayrıldı.</p><span class="mark">Büyük kulaklık · kot gömlek</span></article>
+        <article class="c" style="--k:var(--defne)"><div class="sw"></div><h3>Defne</h3><span class="age">20</span><p>Film fotoğrafı çeker. Telefon unutur, kâğıt unutmaz. Kira makbuzunu hep kaybeder.</p><span class="mark">Hardal hırka · film makinesi</span></article>
+        <article class="c" style="--k:var(--ela)"><div class="sw"></div><h3>Ela</h3><span class="age">19</span><p>Ses tasarımı öğrencisi. Konuşmadan önce kulaklığını çıkarır. Kamptan erken ayrıldı.</p><span class="mark">Büyük kulaklık · kot gömlek</span></article>
       </div>
     </div>
   </section>
@@ -111,14 +111,19 @@ footer .in{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between}
   <section id="bolumler" style="padding-top:0">
     <div class="in">
       <h2>Bölümler</h2>
-      <p class="lead">Altı bölüm, altı gün. Her bölümün sonunda saat biraz daha ilerler.</p>
+      <p class="lead">On bir bölüm, on bir gün. Her bölümün sonunda saat biraz daha ilerler.</p>
       <div class="eps">
-        <div class="ep"><b>01</b><div><h3>Beni Silme</h3><p>Bir fotoğraf silinir; Deniz o günü hiç yaşamamış gibidir.</p></div><span class="day">Pazartesi</span></div>
-        <div class="ep"><b>02</b><div><h3>Kanıt</h3><p>Fotoğraflar yalan söylemez. Peki ya hatırladıkların?</p></div><span class="day">Salı</span></div>
-        <div class="ep"><b>03</b><div><h3>Benim Sesim</h3><p>Uyarılar Mira'nın sesinden geliyor. Ama Mira onları hiç söylemedi.</p></div><span class="day">Çarşamba</span></div>
-        <div class="ep"><b>04</b><div><h3>Eksik Gün</h3><p>Aynı gece, dört farklı hikâye. Sıra zarla belirlenir.</p></div><span class="day">Perşembe</span></div>
-        <div class="ep"><b>05</b><div><h3>Son Kopya</h3><p>Teslime saatler kaldı. Herkesin bir imzası, herkesin bir sırrı var.</p></div><span class="day">Cuma</span></div>
-        <div class="ep"><b>06</b><div><h3>Bu Kez Dinlerim</h3><p>Kafede açık mikrofon gecesi.</p></div><span class="day">Cumartesi</span></div>
+        <div class="ep"><b>01</b><div><h3>Beni Silme</h3><p>Bir fotoğraf silinir; Deniz o günü hiç yaşamamış gibidir.</p></div><span class="day">Gün 1</span></div>
+        <div class="ep"><b>02</b><div><h3>Kanıt</h3><p>Fotoğraflar yalan söylemez. Peki ya hatırladıkların?</p></div><span class="day">Gün 2</span></div>
+        <div class="ep"><b>03</b><div><h3>Sessize Alınmış</h3><p>Rehberde, aylardır dinlenmemiş dört saniyelik bir mesaj.</p></div><span class="day">Gün 3</span></div>
+        <div class="ep"><b>04</b><div><h3>Benim Sesim</h3><p>Uyarılar Mira'nın sesinden geliyor. Ama Mira onları hiç söylemedi.</p></div><span class="day">Gün 4</span></div>
+        <div class="ep"><b>05</b><div><h3>Beş Işık</h3><p>Küçük gri bir kutu, beş ışık. Biri çoktan söndü.</p></div><span class="day">Gün 5</span></div>
+        <div class="ep"><b>06</b><div><h3>İmza</h3><p>Herkes bir form imzaladı. Kimse ne imzaladığını okumadı.</p></div><span class="day">Gün 6</span></div>
+        <div class="ep"><b>07</b><div><h3>Eksik Gün</h3><p>Aynı gece, dört farklı hikâye. Sıra zarla belirlenir.</p></div><span class="day">Gün 7</span></div>
+        <div class="ep"><b>08</b><div><h3>Yarın</h3><p>Mira'nın kendine bıraktığı, hiç yerine getirmediği bir not.</p></div><span class="day">Gün 8</span></div>
+        <div class="ep"><b>09</b><div><h3>Son Kopya</h3><p>Bir anı geri geliyor. Ama hangisi?</p></div><span class="day">Gün 9</span></div>
+        <div class="ep"><b>10</b><div><h3>Yanlış Otobüs</h3><p>Bir gün kaldı. Herkesin bir imzası, herkesin bir sırrı var.</p></div><span class="day">Gün 10</span></div>
+        <div class="ep"><b>11</b><div><h3>Bu Kez Dinlerim</h3><p>Kafede açık mikrofon gecesi.</p></div><span class="day">Gün 11</span></div>
       </div>
     </div>
   </section>
